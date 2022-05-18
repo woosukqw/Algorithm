@@ -1,0 +1,80 @@
+current state is <0000> (depth 0)
+	next state <1000> is dead-end
+	next state <1100> is dead-end
+current state is <1010> (depth 1)
+current state is <0010> (depth 2)
+	next state <1010> has been visited
+current state is <1110> (depth 3)
+	next state <0110> is dead-end
+	next state <0010> has been visited
+current state is <0100> (depth 4)
+	next state <1100> is dead-end
+	next state <1110> has been visited
+current state is <1101> (depth 5)
+current state is <0101> (depth 6)
+	next state <1101> has been visited
+current state is <1111> (depth 7)
+Goal-state found!
+<0000>
+<1010>
+<0010>
+<1110>
+<0100>
+<1101>
+<0101>
+<1111>
+
+back to <0101> (depth 6)
+back to <1101> (depth 5)
+current state is <0001> (depth 6)
+	next state <1001> is dead-end
+	next state <1101> has been visited
+current state is <1011> (depth 7)
+	next state <0011> is dead-end
+	next state <0001> has been visited
+	next state <0010> has been visited
+back to <0001> (depth 6)
+back to <1101> (depth 5)
+	next state <0100> has been visited
+back to <0100> (depth 4)
+back to <1110> (depth 3)
+back to <0010> (depth 2)
+current state is <1011> (depth 3)
+	next state <0011> is dead-end
+current state is <0001> (depth 4)
+	next state <1001> is dead-end
+current state is <1101> (depth 5)
+current state is <0101> (depth 6)
+	next state <1101> has been visited
+current state is <1111> (depth 7)
+Goal-state found!
+<0000>
+<1010>
+<0010>
+<1011>
+<0001>
+<1101>
+<0101>
+<1111>
+
+back to <0101> (depth 6)
+back to <1101> (depth 5)
+	next state <0001> has been visited
+current state is <0100> (depth 6)
+	next state <1100> is dead-end
+current state is <1110> (depth 7)
+	next state <0110> is dead-end
+	next state <0010> has been visited
+	next state <0100> has been visited
+back to <0100> (depth 6)
+	next state <1101> has been visited
+back to <1101> (depth 5)
+back to <0001> (depth 4)
+	next state <1011> has been visited
+back to <1011> (depth 3)
+	next state <0010> has been visited
+back to <0010> (depth 2)
+back to <1010> (depth 1)
+	next state <0000> has been visited
+back to <0000> (depth 0)
+	next state <1001> is dead-end
